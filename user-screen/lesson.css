@@ -1,0 +1,47 @@
+/*lesson画面 */
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+.lesson-header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.lesson-nav{
+    display: flex;
+    color: black;
+    list-style: none;
+    gap: 0 20px;
+}
+
+.lesson-head{
+    background-color: #8F8E8E;
+    padding: 10px;
+}
+
+.lesson-head div h2 {
+    color: white;
+    text-align: center;
+}
+/*要素を横並びにする方法*/
+.menu{
+    display: flex;
+    /*要素を中央寄せにする*/
+    justify-content: center;
+    /*liの・をなくす*/
+    list-style: none;
+    /*隙間を広げる*/
+    gap: 0 20px;
+}
+footer {
+    background-color: #8F8E8E;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+footer small {
+    display: inline-block;
+    padding: 30px 0;
+}
