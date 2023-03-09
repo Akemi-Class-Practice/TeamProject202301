@@ -8,6 +8,7 @@ body {
     justify-content: space-between;
 }
 
+/*导航栏*/
 .lesson-nav{
     display: flex;
     color: black;
@@ -15,6 +16,9 @@ body {
     gap: 0 20px;
 }
 
+.lesson-nav li a {
+    text-decoration:none;
+}
 .lesson-head{
     background-color: #8F8E8E;
     padding: 10px;
@@ -25,6 +29,7 @@ body {
     text-align: center;
 }
 /*要素を横並びにする方法*/
+
 .menu{
     display: flex;
     /*要素を中央寄せにする*/
@@ -34,6 +39,26 @@ body {
     /*隙間を広げる*/
     gap: 0 20px;
 }
+.menu li{
+    width: 25%;
+}
+
+/*取消下划线*/
+.menu li a {
+    text-decoration:none;
+}
+
+/*图片格式*/
+.menu img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 25px;
+    width:100%;
+}
+
+
+
 footer {
     background-color: #8F8E8E;
     color: white;

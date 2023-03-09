@@ -1,0 +1,52 @@
+/*mypage画面*/
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+}
+header {
+	background-color: #8F8E8E;
+	height:80px;
+	margin-bottom:200px;
+}
+
+header {
+    display: flex;
+    color: black;
+    list-style: none;
+    gap: 0 20px;
+}
+
+header a {
+    text-decoration:none;
+}
+
+.menu a {
+    text-decoration:none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+headerThema {
+    background-color: #8F8E8E;
+    padding: 10px;
+}
+
+headerThema div h2{
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #8F8E8E;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+footer small {
+    display: inline-block;
+    padding: 30px 0;
+}
