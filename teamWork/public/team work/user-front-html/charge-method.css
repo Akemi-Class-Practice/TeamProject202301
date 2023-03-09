@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+header {
+	background-color: #8F8E8E;
+	height: 100px;
+	margin-bottom: 80px;
+}
+
+.divHeadLink {
+	float: right;
+	margin-top: 35px;
+	margin-right: 100px;
+	display: flex;
+}
+
+#image {
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+main {
+	height: 670px;
+}
+
+a {
+	margin-left: 20px;
+}
+
+.headerThema {
+	text-align: center;
+	font-weight: bolder;
+	font-size: large;
+}
+
+li {
+	list-style-type: none;
+}
+
+hr {
+	width: 300px;
+	margin-bottom: 50px;
+}
+
+#image2 {
+	width: 1%
+}
+
+.proccessThema {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#greyChara {
+	color: #cdcdcd;
+}
+
+.inline {
+	display: contents;
+}
+
+footer {
+	background: #ababab;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.midPart {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.midPayChoose {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom:10px;
+}
+
+#textPay {
+	background: #accbeb;
+	height: 100px;
+	width: 120px;
+	border-radius: 5px;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	margin-right: 30px;
+}
+
+#payMethod {
+	background: #accbeb;
+	height: 100px;
+	width: 500px;
+	border-radius: 5px;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	margin-right: 50px;
+}
+
+.midBtn {
+	text-align: center;
+}
+
+#attention{
+	font-size:large;
+	font-weight: bolder;
+	display:block;
+	text-align:center;
+	margin-bottom:10px;
+}
