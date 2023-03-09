@@ -6,21 +6,35 @@ body {
 }
 header {
 	background-color: #8F8E8E;
-	height:80px;
-	margin-bottom:200px;
+	height: 100px;
+	margin-bottom: 110px;
 }
 
-header {
-    display: flex;
-    color: black;
-    list-style: none;
-    gap: 0 20px;
+.divHeadLink {
+	float: right;
+	margin-top: 35px;
+	margin-right: 100px;
+	display: flex;
+}
+
+main {
+    height:480px;
+}
+
+#image {
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
 }
 
 header a {
     text-decoration:none;
 }
 
+a {
+    margin-right:20px;
+}
 .menu a {
     text-decoration:none;
     display: flex;
