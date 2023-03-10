@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+header {
+	background-color: #8F8E8E;
+	height: 100px;
+	margin-bottom: 110px;
+}
+
+.divHeadLink {
+	float: right;
+	margin-right: 100px;
+	display: flex;
+}
+
+/*背景图片*/
+#image {
+	width: 20%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+main {
+	height: 670px;
+}
+
+a {
+	margin-left: 20px;
+}
+
+li {
+	list-style-type: none;
+}
+
+hr {
+	width: 300px;
+	margin-bottom: 50px;
+}
+
+.midPart {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+footer {
+	/* text-align: center; */
+	background: #ababab;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
